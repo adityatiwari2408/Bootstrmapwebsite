@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to CodingTech</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">CodingTech</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Languages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">c,c++</a></li>
+                <li><a class="dropdown-item" href="#">python</a></li>
+                <li><a class="dropdown-item" href="#">java</a></li>
+                <li><a class="dropdown-item" href="#">javascript</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#"></a>React js</li>
+                <li><a class="dropdown-item" href="#"></a>React native</li>
+                <li><a class="dropdown-item" href="#"></a>bootsramp</li>
+                <li><a class="dropdown-item" href="#"></a>Php</li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex container">
+            <input
+              class="form-control me-2 nav-input"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="download.jpg"
+            class="d-block w-100"
+            alt="Minor project"
+            height="500"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Minor project</h5>
+            <p class="text-sucess">
+              This is the project that is submitted by me to college for minor
+              project. A good food delivery app
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="download2.webp"
+            class="d-block w-100"
+            alt="Major project"
+            height="500"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Major project</h5>
+            <p>It is a online and offline music player app</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="download3.jpg"
+            class="d-block w-100"
+            alt="react js"
+            height="500"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>React js project</h5>
+            <p>Im just trying to make a website with the use of reactjs.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div
+      class="container container-fluid d-flex justify-content-center card-top card-deck"
+    >
+      <div class="row">
+        <div class="col col-md-6 col-sm-6 col-xl-4">
+          <div class="card" style="width: 18rem">
+            <img src="download.jpg" class="card-img-top" alt="images" />
+            <div class="card-body">
+              <h5 class="card-title text-primary">
+                Learn bootsramp form scratch
+              </h5>
+              <p class="card-text">
+                Get started with Bootstrap, the world's most popular framework
+                for building responsive, mobile-first sites, with jsDelivr and a
+                template starter page.
+              </p>
+              <a href="#" class="btn btn-primary">know more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6 col-sm-6 col-xl-4">
+          <div class="card" style="width: 18rem">
+            <img src="download2.webp" class="card-img-top" alt="images" />
+            <div class="card-body">
+              <h5 class="card-title text-success">
+                Learn Web development form scratch
+              </h5>
+              <p class="card-text">
+                Well organized and easy to understand Web building tutorials
+                with lots of examples of how to use HTML, CSS, JavaScript, SQL,
+                Python, PHP, Bootstrap, Java, ...
+              </p>
+              <a href="#" class="btn btn-primary">know more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-4 col-sm-6 col-xl-4">
+          <div class="card" style="width: 18rem">
+            <img src="download3.jpg" class="card-img-top" alt="images" />
+            <div class="card-body">
+              <h5 class="card-title text-danger">Learn Reactjs form scratch</h5>
+              <p class="card-text">
+                Python is a popular programming language. Python can be used on
+                a server to create web applications
+              </p>
+              <a href="#" class="btn btn-primary">know more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bd-footer py-5 mt-5 bg-light">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-3 mb-3">
+            <a
+              class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none"
+              href="/"
+              aria-label="Bootstrap"
+            ></a>
+                <title>CodingTech</title>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <span class="fs-5">CodingTech</span>
+            </a>
+            <ul class="list-unstyled small text-muted">
+              <li class="mb-2">
+                Designed and built with all the love in the world by the
+                <a href="/docs/5.0/about/team/">CodingTech</a> with the help
+                of
+                <a href="https://github.com/twbs/bootstrap/graphs/contributors"
+                  >our contributors</a
+                >.
+              </li>
+            </ul>
+            <span>@Author:Adityatiwari</span>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5>Projects</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="https://github.com/twbs/bootstrap">Bootstrap 5</a>
+              </li>
+              <li class="mb-2">
+                <a href="https://github.com/twbs/bootstrap/tree/v4-dev"
+                  >Food Delivery app</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="https://github.com/twbs/icons">Music player App</a>
+              </li>
+              <li class="mb-2">
+                <a href="https://github.com/twbs/rfs">React js</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5>Connect with us</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="https://github.com/twbs/bootstrap/discussions"
+                  ><i class="fa fa-whatsapp whatsapp" style="font-size: 24px; color: green;"> whatsapp</i></fa></a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="https://github.com/sponsors/twbs"
+                  ><i class="fa fa-github Github" style="font-size: 24px; color: black;">Github</i></a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="https://opencollective.com/bootstrap"
+                  ><i class="fa fa-instagram Instagram" style="font-size: 24px; color: #8a3ab9;">Instagram</i></a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="https://stackoverflow.com/questions/tagged/bootstrap-5"
+                  ><i class="fa fa-twitter twitter" style="font-size: 24px;">Twitter</i></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
